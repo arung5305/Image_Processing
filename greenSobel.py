@@ -7,18 +7,18 @@ import math
 import scipy.misc
 import cv2
 
-#src_dir = "C:\\Users\\bhuiy\\Desktop\\Full AREDS data for Comp4\\Cropped\\2010"
-t1 = "C:\\Users\\bhuiy\\Desktop\\Perfect dataset\\RGB\\Training\\1"
-t4 = "C:\\Users\\bhuiy\\Desktop\\Perfect dataset\\RGB\\Training\\4"
-v1 = "C:\\Users\\bhuiy\\Desktop\\Perfect dataset\\RGB\\Validation\\1"
-v4 = "C:\\Users\\bhuiy\\Desktop\\Perfect dataset\\RGB\\Validation\\4" 
+#src_dir = "C:\\Users\\gova\\Desktop\\Full AREDS data for Comp4\\Cropped\\2010"
+t1 = "C:\\Users\\gova\\Desktop\\Perfect dataset\\RGB\\Training\\1"
+t4 = "C:\\Users\\gova\\Desktop\\Perfect dataset\\RGB\\Training\\4"
+v1 = "C:\\Users\\gova\\Desktop\\Perfect dataset\\RGB\\Validation\\1"
+v4 = "C:\\Users\\gova\\Desktop\\Perfect dataset\\RGB\\Validation\\4" 
 
 
 # green only
-gt1 = "C:\\Users\\bhuiy\\Desktop\\Perfect dataset\\JUSTGREEN\\Training\\1"
-gt4 = "C:\\Users\\bhuiy\\Desktop\\Perfect dataset\\JUSTGREEN\\Training\\4"
-gv1 = "C:\\Users\\bhuiy\\Desktop\\Perfect dataset\\JUSTGREEN\\Validation\\1"
-gv4 = "C:\\Users\\bhuiy\\Desktop\\Perfect dataset\\JUSTGREEN\\Validation\\4" 
+gt1 = "C:\\Users\\gova\\Desktop\\Perfect dataset\\JUSTGREEN\\Training\\1"
+gt4 = "C:\\Users\\gova\\Desktop\\Perfect dataset\\JUSTGREEN\\Training\\4"
+gv1 = "C:\\Users\\gova\\Desktop\\Perfect dataset\\JUSTGREEN\\Validation\\1"
+gv4 = "C:\\Users\\gova\\Desktop\\Perfect dataset\\JUSTGREEN\\Validation\\4" 
 
 
 #rgb -- median
@@ -36,39 +36,39 @@ hv4 = "C:\\Users\\bhuiy\\Desktop\\Perfect dataset\\Histogramequal\\Validation\\4
 
 
 #GREENSOBEL
-st1 = "C:\\Users\\bhuiy\\Desktop\\Perfect dataset\\GREENSOBEL\\Training\\1"
-st4 = "C:\\Users\\bhuiy\\Desktop\\Perfect dataset\\GREENSOBEL\\Training\\4"
-sv1 = "C:\\Users\\bhuiy\\Desktop\\Perfect dataset\\GREENSOBEL\\Validation\\1"
-sv4 = "C:\\Users\\bhuiy\\Desktop\\Perfect dataset\\GREENSOBEL\\Validation\\4" 
+st1 = "C:\\Users\\gova\\Desktop\\Perfect dataset\\GREENSOBEL\\Training\\1"
+st4 = "C:\\Users\\gova\\Desktop\\Perfect dataset\\GREENSOBEL\\Training\\4"
+sv1 = "C:\\Users\\gova\\Desktop\\Perfect dataset\\GREENSOBEL\\Validation\\1"
+sv4 = "C:\\Users\\gova\\Desktop\\Perfect dataset\\GREENSOBEL\\Validation\\4" 
 
 
 #GreenMedian
-gmt1 = "C:\\Users\\bhuiy\\Desktop\\Perfect dataset\\GreenMedian\\Training\\1"
-gmt4 = "C:\\Users\\bhuiy\\Desktop\\Perfect dataset\\GreenMedian\\Training\\4"
-gmv1 = "C:\\Users\\bhuiy\\Desktop\\Perfect dataset\\GreenMedian\\Validation\\1"
-gmv4 = "C:\\Users\\bhuiy\\Desktop\\Perfect dataset\\GreenMedian\\Validation\\4" 
+gmt1 = "C:\\Users\\gova\\Desktop\\Perfect dataset\\GreenMedian\\Training\\1"
+gmt4 = "C:\\Users\\gova\\Desktop\\Perfect dataset\\GreenMedian\\Training\\4"
+gmv1 = "C:\\Users\\gova\\Desktop\\Perfect dataset\\GreenMedian\\Validation\\1"
+gmv4 = "C:\\Users\\gova\\Desktop\\Perfect dataset\\GreenMedian\\Validation\\4" 
 
 
 
 #Cropped-RGB
-ct1 = "C:\\Users\\bhuiy\\Desktop\\Perfect dataset\\Cropped-RGB\\Training\\1"
-ct4 = "C:\\Users\\bhuiy\\Desktop\\Perfect dataset\\Cropped-RGB\\Training\\4"
-cv1 = "C:\\Users\\bhuiy\\Desktop\\Perfect dataset\\Cropped-RGB\\Validation\\1"
-cv4 = "C:\\Users\\bhuiy\\Desktop\\Perfect dataset\\Cropped-RGB\\Validation\\4" 
+ct1 = "C:\\Users\\gova\\Desktop\\Perfect dataset\\Cropped-RGB\\Training\\1"
+ct4 = "C:\\Users\\gova\\Desktop\\Perfect dataset\\Cropped-RGB\\Training\\4"
+cv1 = "C:\\Users\\gova\\Desktop\\Perfect dataset\\Cropped-RGB\\Validation\\1"
+cv4 = "C:\\Users\\gova\\Desktop\\Perfect dataset\\Cropped-RGB\\Validation\\4" 
 
 
 #ContrastStretchingAndMedian
-cmt1 = "C:\\Users\\bhuiy\\Desktop\\Perfect dataset\\ContrastStretchingAndMedian\\Training\\1"
-cmt4 = "C:\\Users\\bhuiy\\Desktop\\Perfect dataset\\ContrastStretchingAndMedian\\Training\\4"
-cmv1 = "C:\\Users\\bhuiy\\Desktop\\Perfect dataset\\ContrastStretchingAndMedian\\Validation\\1"
-cmv4 = "C:\\Users\\bhuiy\\Desktop\\Perfect dataset\\ContrastStretchingAndMedian\\Validation\\4" 
+cmt1 = "C:\\Users\\gova\\Desktop\\Perfect dataset\\ContrastStretchingAndMedian\\Training\\1"
+cmt4 = "C:\\Users\\gova\\Desktop\\Perfect dataset\\ContrastStretchingAndMedian\\Training\\4"
+cmv1 = "C:\\Users\\gova\\Desktop\\Perfect dataset\\ContrastStretchingAndMedian\\Validation\\1"
+cmv4 = "C:\\Users\\gova\\Desktop\\Perfect dataset\\ContrastStretchingAndMedian\\Validation\\4" 
 
 
 #ContrastStretching
-cst1 = "C:\\Users\\bhuiy\\Desktop\\Perfect dataset\\ContrastStretching\\Training\\1"
-cst4 = "C:\\Users\\bhuiy\\Desktop\\Perfect dataset\\ContrastStretching\\Training\\4"
-csv1 = "C:\\Users\\bhuiy\\Desktop\\Perfect dataset\\ContrastStretching\\Validation\\1"
-csv4 = "C:\\Users\\bhuiy\\Desktop\\Perfect dataset\\ContrastStretching\\Validation\\4" 
+cst1 = "C:\\Users\\gova\\Desktop\\Perfect dataset\\ContrastStretching\\Training\\1"
+cst4 = "C:\\Users\\gova\\Desktop\\Perfect dataset\\ContrastStretching\\Training\\4"
+csv1 = "C:\\Users\\gova\\Desktop\\Perfect dataset\\ContrastStretching\\Validation\\1"
+csv4 = "C:\\Users\\gova\\Desktop\\Perfect dataset\\ContrastStretching\\Validation\\4" 
 
 
 
